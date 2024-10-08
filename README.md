@@ -1,30 +1,30 @@
 # Drug Review Analysis PRoject
 This is a repo for the drug review analysis project for AAI 500. 
 
-## Getting Started
-
-### Cloning this repo
+## Cloning this repo
 Run each command line-by-line in your terminal to set up the project:
 
 ```bash
 $ git clone git@github.com:omarsagoo/drug-review-analysis.git
 $ cd drug-review-analysis
 ```
+## Required Tools
+### make
+You will also need to have make installed to use all of the easy to use commands that have been setup for this project, This should be all you need.
 
-### Python version
+Windows installation: 
+- https://gnuwin32.sourceforge.net/packages/make.htm
+
+Mac installation:
+- https://formulae.brew.sh/formula/make
+
+### Python
 The python version that you will use will be automatically set with pyenv. The version it is currently set to use is 3.7.17, this can be modified in the Makefile if needed on line 7. 
 
 ### pyenv
 In order to run this repo you must have pyenv and pyenv-virtualenv installed. 
 - https://github.com/pyenv/pyenv
 - https://github.com/pyenv/pyenv-virtualenv
-
-### make
-You will also need to have make installed to use all of the easy  to use commands that have been setup for this project. 
-Windows installation: 
-- https://gnuwin32.sourceforge.net/packages/make.htm
-Mac installation:
-- https://formulae.brew.sh/formula/make
 
 ## Usage
 
