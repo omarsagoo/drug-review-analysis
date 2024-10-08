@@ -6,10 +6,10 @@ This is a repo for the drug review analysis project for AAI 500.
 ### Cloning this repo
 Run each command line-by-line in your terminal to set up the project:
 
-    ```bash
-    $ git clone git@github.com:omarsagoo/drug-review-analysis.git
-    $ cd drug-review-analysis
-    ```
+```bash
+$ git clone git@github.com:omarsagoo/drug-review-analysis.git
+$ cd drug-review-analysis
+```
 
 ### Python version
 The python version that you will use will be automatically set with pyenv. The version it is currently set to use is 3.7.17, this can be modified in the Makefile if needed on line 7. 
