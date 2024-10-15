@@ -4,7 +4,7 @@ export LANG=en_US.UTF-8
 
 SHELL:=/bin/bash
 PROJECT=drug_review_analysis
-VERSION=3.7.17
+VERSION=3.11.4
 VENV=${PROJECT}-${VERSION}
 VENV_DIR=$(shell pyenv root)/versions/${VENV}
 PYTHON=${VENV_DIR}/bin/python
