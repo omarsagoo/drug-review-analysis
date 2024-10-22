@@ -2,8 +2,9 @@ import re
 import sys
 sys.path.append("./utils")
 
-# import local constants and helpers.
+# import local constants and helpers. See Appendix C for Keywords.
 from keywords import side_effect_keywords, negation_words
+# See Appendix D for parser.
 from parser import parse_string, find_first_occurence
 
 def check_for_negation(text, keyword):
